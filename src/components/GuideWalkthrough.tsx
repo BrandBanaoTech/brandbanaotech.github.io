@@ -75,9 +75,9 @@ export default function GuideWalkthrough() {
   return (
     <section className="w-full bg-slate-50/50 py-16 md:py-24 border-y border-slate-100" id="guide">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto flex flex-col gap-4 mb-16 md:mb-20">
+        <h3>This site is under construction. Come back soon!</h3>
           <h2 className="font-display font-extrabold text-slate-900 text-3xl sm:text-4xl md:text-5xl tracking-tight leading-tight">
             Simplify Your Experience with Our <br className="hidden sm:inline" />
             <span className="text-[#A3D953]">Easy-to-Follow Guides!</span>
