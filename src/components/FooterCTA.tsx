@@ -1,4 +1,3 @@
-import React from 'react';
 // import { Facebook, Twitter, Instagram, Smartphone, Download, CheckCircle, Apple, Play, Sparkles } from 'lucide-react';
 
 export default function FooterCTA() {

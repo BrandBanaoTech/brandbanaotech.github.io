@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   Wifi, 
   Battery, 
@@ -8,10 +7,8 @@ import {
   Share2, 
   MoreHorizontal, 
   Home, 
-  ShoppingBag, 
-  History, 
-  User, 
-  Plus, 
+  ShoppingBag,  
+  User,  
   Phone, 
   MessageSquare, 
   Tv, 

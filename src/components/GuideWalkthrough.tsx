@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ArrowLeft, ArrowRight, Check, Sparkles } from 'lucide-react';
+import { useState } from 'react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import MobileMockup from './MobileMockup';
 import { GuideStep } from '../types';
