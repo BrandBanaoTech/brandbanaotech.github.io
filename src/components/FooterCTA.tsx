@@ -1,5 +1,5 @@
 // import { Facebook, Twitter, Instagram, Smartphone, Download, CheckCircle, Apple, Play, Sparkles } from 'lucide-react';
-
+import logoImg from '../assets/logo.png';
 export default function FooterCTA() {
   const downloadImageUrl = "/src/assets/images/hand_holding_phone_1780936928269.png";
 
@@ -84,7 +84,11 @@ export default function FooterCTA() {
             <a href="#" className="flex items-center gap-2.5 group self-start">
               <div className="w-8 h-8 rounded-xl bg-slate-900 flex items-center justify-center relative shadow-md border border-slate-800 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#A3D953]/15 to-transparent opacity-100"></div>
-                {/* <Sparkles className="w-4 h-4 text-[#A3D953] transition-transform duration-500 group-hover:rotate-12" /> */}
+                <img 
+                  src={logoImg} 
+                  alt="B" 
+                  className="w-5 h-5 object-contain transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" 
+                />              
               </div>
               <span className="font-display font-extrabold text-lg text-white tracking-tight leading-none">
                 Brand <span className="text-[#A3D953]">Banao</span>
