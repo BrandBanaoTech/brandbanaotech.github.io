@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, ChevronDown, Sparkles } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import logoImg from '../assets/logo.png';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,7 +23,11 @@ export default function Navbar() {
           <div className="w-9 h-9 rounded-xl bg-slate-950 flex items-center justify-center relative shadow-md border border-slate-800 overflow-hidden">
             {/* Ambient background glow inside logo */}
             <div className="absolute inset-0 bg-gradient-to-tr from-[#A3D953]/15 to-transparent opacity-100 transition-opacity duration-500"></div>
-            <Sparkles className="w-5 h-5 text-[#A3D953] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" />
+            <img 
+              src={logoImg} 
+              alt="B" 
+              className="w-5 h-5 object-contain transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" 
+            />
           </div>
           <span className="font-display font-extrabold text-xl text-slate-900 tracking-tight leading-none">
             Brand <span className="text-[#528221]">Banao</span>
