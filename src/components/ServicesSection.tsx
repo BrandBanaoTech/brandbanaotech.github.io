@@ -7,7 +7,6 @@ import {
   Globe2,
   Layers3,
   Palette,
-  PanelsTopLeft,
   PenTool,
   Sparkles,
   SwatchBook,

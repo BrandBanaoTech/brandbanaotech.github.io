@@ -1,38 +1,34 @@
 
 import {
   ArrowRight,
-  ArrowUpRight,
   Check,
   Lightbulb,
-  Palette,
-  Monitor,
-  Sparkles,
 } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import teamImage from "../assets/images/brandbanao-team1.png";
 
-const highlights = [
-  {
-    icon: Palette,
-    title: "Brand identity",
-    description: "Build recognition",
-  },
-  {
-    icon: Monitor,
-    title: "Websites",
-    description: "Create your digital home",
-  },
-  {
-    icon: Sparkles,
-    title: "Creative design",
-    description: "Make ideas stand out",
-  },
-  {
-    icon: Lightbulb,
-    title: "Digital solutions",
-    description: "Make things work better",
-  },
-];
+// const highlights = [
+//   {
+//     icon: Palette,
+//     title: "Brand identity",
+//     description: "Build recognition",
+//   },
+//   {
+//     icon: Monitor,
+//     title: "Websites",
+//     description: "Create your digital home",
+//   },
+//   {
+//     icon: Sparkles,
+//     title: "Creative design",
+//     description: "Make ideas stand out",
+//   },
+//   {
+//     icon: Lightbulb,
+//     title: "Digital solutions",
+//     description: "Make things work better",
+//   },
+// ];
 
 const capabilities = [
   "Branding",

@@ -1,6 +1,5 @@
 
 import {
-  ArrowRight,
   ArrowUpRight,
   Compass,
   Eye,

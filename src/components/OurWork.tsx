@@ -1,39 +1,34 @@
 
 import {
   ArrowUpRight,
-  ArrowRight,
-  Palette,
-  MonitorSmartphone,
-  Layers3,
-  Sparkles,
 } from "lucide-react";
 
-const projects = [
-  {
-    number: "01",
-    category: "EDUCATION · CONCEPT STUDY",
-    title: "An education brand, built for connection.",
-    description:
-      "A visual identity and digital experience concept for a modern learning business, designed to make information approachable and its offering easy to explore.",
-    services: ["Brand identity", "Website design", "Digital communication"],
-  },
-  {
-    number: "02",
-    category: "LOCAL BUSINESS · CONCEPT STUDY",
-    title: "A distinctive identity for a local business.",
-    description:
-      "An exploration of how a consistent visual language can bring together signage, business communication and a thoughtful online presence.",
-    services: ["Visual identity", "Brand assets", "Marketing design"],
-  },
-  {
-    number: "03",
-    category: "PERSONAL BRAND · CONCEPT STUDY",
-    title: "A portfolio that puts the work first.",
-    description:
-      "A digital portfolio direction for an independent professional, with a clear introduction, considered typography and an organised presentation of work.",
-    services: ["Personal branding", "Portfolio website", "Digital design"],
-  },
-];
+// const projects = [
+//   {
+//     number: "01",
+//     category: "EDUCATION · CONCEPT STUDY",
+//     title: "An education brand, built for connection.",
+//     description:
+//       "A visual identity and digital experience concept for a modern learning business, designed to make information approachable and its offering easy to explore.",
+//     services: ["Brand identity", "Website design", "Digital communication"],
+//   },
+//   {
+//     number: "02",
+//     category: "LOCAL BUSINESS · CONCEPT STUDY",
+//     title: "A distinctive identity for a local business.",
+//     description:
+//       "An exploration of how a consistent visual language can bring together signage, business communication and a thoughtful online presence.",
+//     services: ["Visual identity", "Brand assets", "Marketing design"],
+//   },
+//   {
+//     number: "03",
+//     category: "PERSONAL BRAND · CONCEPT STUDY",
+//     title: "A portfolio that puts the work first.",
+//     description:
+//       "A digital portfolio direction for an independent professional, with a clear introduction, considered typography and an organised presentation of work.",
+//     services: ["Personal branding", "Portfolio website", "Digital design"],
+//   },
+// ];
 
 /* Small reusable project label */
 function ProjectLabel({ children }: { children: React.ReactNode }) {

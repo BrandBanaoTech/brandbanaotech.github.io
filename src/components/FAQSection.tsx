@@ -3,7 +3,6 @@ import { useState } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
-  ChevronDown,
   Plus,
   Minus,
   MessageCircle,

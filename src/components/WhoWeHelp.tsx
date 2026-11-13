@@ -1,7 +1,6 @@
 
 import {
   ArrowRight,
-  BriefcaseBusiness,
   Clapperboard,
   Lightbulb,
   Store,
