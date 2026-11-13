@@ -1,0 +1,92 @@
+/* BrandBanao global component utilities. Tailwind remains responsible for layout. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  margin: 0;
+  background: #FAFAF7;
+}
+
+.nav-link {
+  color: #46505B;
+  font-family: Manrope, sans-serif;
+  font-size: 13px;
+  font-weight: 650;
+  transition: color 180ms ease;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: #528221;
+}
+
+.mobile-link {
+  border-bottom: 1px solid #ECECE5;
+  padding: 1rem 0;
+  color: #0F172B;
+  font-family: Manrope, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 650;
+  transition: color 180ms ease;
+}
+
+.mobile-link:hover,
+.mobile-link:focus-visible {
+  color: #528221;
+}
+
+.eyebrow-small {
+  color: #89938B;
+  font-family: Manrope, sans-serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.concept-label {
+  font-family: Manrope, sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.footer-label {
+  color: #A3D953;
+  font-family: Manrope, sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  color: rgb(255 255 255 / 55%);
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  transition: color 180ms ease;
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+  color: #fff;
+}
+
+:focus-visible {
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
